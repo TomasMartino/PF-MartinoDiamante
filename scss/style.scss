@@ -1,8 +1,11 @@
+$body-color: #e0f7fa;
+$header-color: #374f92;
+$font: Arial, sans-serif;
 @media (min-width: 801px) {
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
+    font-family: $font;
+    background-color: $body-color;
   }
   h2 {
     margin: 0 0 10% 0;
@@ -11,7 +14,7 @@
     display: none;
   }
   header {
-    background-color: #374f92;
+    background-color: $header-color;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -22,8 +25,6 @@
     max-width: 50px;
     max-height: 35px;
     border-radius: 50%;
-  }
-  header .logo {
   }
 
   header nav ul {
@@ -174,8 +175,8 @@
   /* Estilos para teléfonos */
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
+    font-family: $font;
+    background-color: $body-color;
     display: flex;
     flex-direction: column;
   }
@@ -193,7 +194,7 @@
   header {
     width: 100%;
     overflow-x: auto;
-    background-color: #374f92;
+    background-color: $header-color;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -316,8 +317,8 @@
 @media (min-width: 560px) and (max-width: 800px) {
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
+    font-family: $font;
+    background-color: $body-color;
     display: flex;
     flex-direction: column;
   }
@@ -332,7 +333,7 @@
   header {
     width: 100%;
     overflow-x: auto;
-    background-color: #374f92;
+    background-color: $header-color;
     color: white;
     display: flex;
     justify-content: space-between;
