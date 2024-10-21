@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Estilos generales */
 @media (min-width: 910px) {
   body {
     margin: 0;
@@ -76,6 +75,11 @@
     text-align: center;
     color: white;
     border-radius: 10px;
+  }
+  .buttons-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .add-product {
     background-color: #000;
@@ -234,6 +238,11 @@
     text-align: center;
     color: white;
     border-radius: 10px;
+  }
+  .buttons-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .add-product {
     background-color: #000;

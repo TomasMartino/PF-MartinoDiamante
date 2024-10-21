@@ -86,8 +86,13 @@ $background-color: #b2ebf2;
     color: white;
     border-radius: 10px;
   }
-
+  .buttons-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .add-product {
+    
     background-color: #000;
     color: white;
     border: none;
@@ -263,7 +268,13 @@ $background-color: #b2ebf2;
         border-radius: 10px;
       }
     
+      .buttons-add{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .add-product {
+        
         background-color: #000;
         color: white;
         border: none;
